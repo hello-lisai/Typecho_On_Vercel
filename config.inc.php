@@ -37,13 +37,13 @@ Typecho_Common::init();
 /** 不用ssl的tls就为空 vercel用ssl连接mysql默认不动 */
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => '',
-  'user' => '',
-  'password' => '',
-  'charset' => 'utf8mb4',
-  'port' => '3306',
-  'database' => '',
+  'host' => 'gateway01.eu-central-1.prod.aws.tidbcloud.com', 
+  'user' => '2uia6os6c3Qu8Vp.root', 
+  'password' => 'VENaHCw7PdyE24mz', 
+  'charset' => 'utf8mb4', 
+  'port' => '4000', 
+  'database' => 'fortune500', 
   'engine' => 'InnoDB',
-  'tls' => '/etc/pki/tls/certs/ca-bundle.crt'
+  'tls' => '/etc/pki/tls/certs/ca-bundle.crt' 
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
