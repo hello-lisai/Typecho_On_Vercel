@@ -16,8 +16,8 @@
 <?php endif; ?>
     <link href="<?php $this -> options -> themeUrl('static/kico.css'); ?>" rel="stylesheet" type="text/css"/>
     <link href="<?php $this -> options -> themeUrl('static/single.css'); ?>" rel="stylesheet" type="text/css"/>
-    <link href="https://cdn.bootcss.com/font-awesome/5.8.2/css/fontawesome.min.css" rel="stylesheet" type="text/css"/>
-    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
+    <link href="https://cdn.bootcss.com/font-awesome/5.13.0/css/all.css" rel="stylesheet" type="text/css"/> 
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/> 
 <?php if($this -> options -> background): ?>
     <style>body:before{content: ''; background-image: url(<?php $this -> options -> background(); ?>)}</style>
 <?php endif; ?>
