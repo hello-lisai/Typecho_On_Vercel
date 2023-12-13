@@ -3,6 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
     <title><?php $this -> archiveTitle(array(
             'category'  =>  _t('%s'),
             'search'    =>  _t('含关键词 %s 的文章'),
