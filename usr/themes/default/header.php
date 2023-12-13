@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title><?php $this -> archiveTitle(array(
+    <title><?php $this -> archiveTitle(array( 
             'category'  =>  _t('%s'),
             'search'    =>  _t('含关键词 %s 的文章'),
             'tag'       =>  _t('标签 %s 下的文章'),
@@ -15,8 +15,8 @@
     <link rel="icon" href="<?php $this -> options -> themeUrl('img/icon.png'); ?>" sizes="192x192"/>
 <?php endif; ?>
     <link href="<?php $this -> options -> themeUrl('static/kico.css'); ?>" rel="stylesheet" type="text/css"/>
-    <link href="<?php $this -> options -> themeUrl('static/single.css'); ?>" rel="stylesheet" type="text/css"/>
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php $this -> options -> themeUrl('static/single.css'); ?>" rel="stylesheet" type="text/css"/> 
+    <link href="https://jsd.cdn.zzko.cn/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/> 
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
 <?php if($this -> options -> background): ?>
     <style>body:before{content: ''; background-image: url(<?php $this -> options -> background(); ?>)}</style>
