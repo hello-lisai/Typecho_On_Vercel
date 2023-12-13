@@ -3,7 +3,6 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
     <title><?php $this -> archiveTitle(array(
             'category'  =>  _t('%s'),
             'search'    =>  _t('含关键词 %s 的文章'),
@@ -11,14 +10,14 @@
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); $this -> options -> title(); ?></title>
 <?php if($this -> options -> favicon): ?>
-    <link rel="icon" href="<?php $this -> options -> favicon(); ?>" sizes="192x192"/>
+    <link rel="icon" href="<?php $this -> options -> favicon(); ?>" sizes="192x192"/> 
 <?php else: ?>
-    <link rel="icon" href="<?php $this -> options -> themeUrl('img/icon.png'); ?>" sizes="192x192"/>
+    <link rel="icon" href="<?php $this -> options -> themeUrl('img/icon.png'); ?>" sizes="192x192"/> 
 <?php endif; ?>
     <link href="<?php $this -> options -> themeUrl('static/kico.css'); ?>" rel="stylesheet" type="text/css"/>
     <link href="<?php $this -> options -> themeUrl('static/single.css'); ?>" rel="stylesheet" type="text/css"/>
-    <link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
+    <link href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/> 
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/> 
 <?php if($this -> options -> background): ?>
     <style>body:before{content: ''; background-image: url(<?php $this -> options -> background(); ?>)}</style>
 <?php endif; ?>
