@@ -12,9 +12,9 @@ function threadedComments($comments) {
 ?>
 
 <div class="comment-single<?php echo $commentLevelClass; ?>" id="<?php $comments->theId() ?>">
-    <img class="avatar" src="https://img.ixintu.com/download/jpg/20200806/ea1ea4dc65be006d64ac2c48937357b5_512_512.jpg" alt=""/>
+    <img class="avatar" src="https://icon-icons.com/icons2/154/PNG/512/user_21980.png" alt=""/> 
     <div class="comment-meta">
-        <span class="comment-author"><?php if($comments->url): ?><a href="<?php $comments->url() ?>" rel="external nofollow" target="_blank"><?php $comments->author(false) ?></a><?php else: $comments->author(); endif; ?></span>
+        <span class="comment-author"><?php if($comments->url): ?><a href="<?php $comments->url() ?>" rel="external nofollow" target="_blank"><?php $comments->author(false) ?></a><?php else: $comments->author(); endif; ?></span> 
         <time class="comment-time"><?php $comments->created(); ?></time>
         <span class="comment-reply"><?php $comments->reply('<i class="fa fa-reply" title="回复"></i>'); ?></span>
     </div>
